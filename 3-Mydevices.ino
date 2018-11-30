@@ -21,9 +21,9 @@ char ssid[] = "Projetosiot";
 char wifiPassword[] = "pelicano2018";
 
 // Cayenne authentication info. This should be obtained from the Cayenne Dashboard.
-char username[] = "c763e9d0-f1a2-11e8-8cb9-732fc93af22b";
-char password[] = "90341f57b2607ef94861bfa7140ad77a1c5064fe";
-char clientID[] = "10567620-f299-11e8-b82d-f12a91579eed";
+char username[] = "Seu User Name";
+char password[] = "Seu Password";
+char clientID[] = "Seu Client ID";
 
 
 void setup() {
