@@ -6,14 +6,14 @@
  
 //defines:
 //defines de id mqtt e tópicos para publicação e subscribe
-#define TOPICO_SUBSCRIBE "mqttpelicano1envia"     //tópico MQTT de escuta
-#define TOPICO_PUBLISH   "mqttpelicano1recebe"    //tópico MQTT de envio de informações para Broker
+#define TOPICO_SUBSCRIBE "SEU_TOPICO_envia"     //tópico MQTT de escuta
+#define TOPICO_PUBLISH   "SEU_TOPICO_recebe"    //tópico MQTT de envio de informações para Broker
                                                    //IMPORTANTE: recomendamos fortemente alterar os nomes
                                                    //            desses tópicos. Caso contrário, há grandes
                                                    //            chances de você controlar e monitorar o NodeMCU
                                                    //            de outra pessoa.
 
-#define TOPICO_PUBLISH1   "mqttpelicano1numero"
+#define TOPICO_PUBLISH1   "SEU_TOPICO_recebe_1"
 
 #define ID_MQTT  "projetosIOT" //id mqtt (para identificação de sessão)
                                //IMPORTANTE: este deve ser único no broker (ou seja, 
@@ -25,8 +25,8 @@
  
  
 // WIFI
-const char* SSID = "automacao"; // SSID / nome da rede WI-FI que deseja se conectar
-const char* PASSWORD = "moderno2018"; // Senha da rede WI-FI que deseja se conectar
+const char* SSID = "Projetosiot"; // SSID / nome da rede WI-FI que deseja se conectar
+const char* PASSWORD = "pelicano2018"; // Senha da rede WI-FI que deseja se conectar
   
 // MQTT
 const char* BROKER_MQTT = "broker.hivemq.com"; //URL do broker MQTT que se deseja utilizar
